@@ -12,7 +12,7 @@ Therefore, I used the API https://www.nutritionix.com/
 
 ## How it works:
 The workout tracker works with natural language processing: The exercises can be entered in a normal english sentence, such as "ran 5k and cycled for 20 minutes."
-It understands that the activity was running. Then it figures out a duration for the run based on the distance as an average value and works out the amount of calories expended during that activity. 
+It understands that the first activity was running. Then it figures out a duration for the run based on the distance as an average value and works out the amount of calories expended during that activity. 
 Then it does the same for the second workout, but here the duration was already given. 
 All these activities are logged automatically in a Google sheets file with the current date and time.
 
